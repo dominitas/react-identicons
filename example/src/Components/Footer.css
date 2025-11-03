@@ -1,0 +1,27 @@
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0.5em;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 820px) {
+    .footer {
+        position: static;
+        margin-top: 2em;
+    }
+}

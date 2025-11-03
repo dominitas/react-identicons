@@ -1,0 +1,80 @@
+.main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.identicon {
+    text-align: center;
+}
+
+.identicon input {
+    display: block;
+    margin: 1em auto 0;
+    padding: 0.3em 0.6em;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: inherit;
+    background: #373839;
+    border: none;
+    border-radius: 3px;
+}
+
+.size {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.identicon select {
+    padding: 0.2em 0.1em 0.2em;
+    font: inherit;
+    background: var(--main-bg);
+    border: none;
+}
+
+.range {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.range:first-of-type {
+    margin-top: 0;
+}
+
+.opacity {
+    margin-top: 0.5em;
+}
+
+.opacity:last-of-type {
+    margin-bottom: 0;
+}
+
+.range label {
+    width: 100px;
+    display: inline-block;
+}
+
+.range input {
+    width: 200px;
+}
+
+@media (max-width: 820px) {
+    #root {
+        padding: 1em;
+    }
+
+    .main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ranges {
+        margin-top: 3em;
+    }
+}
